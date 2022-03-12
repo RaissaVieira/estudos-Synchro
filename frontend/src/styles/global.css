@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    --background: #EBF2F5;
+    --header: #15C3D6;
+    --white: #FFFFFF;
+    --gray-light: #9C98A6;
+    --gray-medium: #6A6180;
+    --gray-dark: #32264D;
+    --green: #04d361;
+
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background: var(--background);
+}
+
+body,
+button,
+input,
+textarea {
+    /* clamp - intervalo de tamanho */
+    font-size: clamp(14px, 1.6rem, 2vw);
+    font-family: 'Archivo', sans-serif;
+    font-size: 400;
+}
