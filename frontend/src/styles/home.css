@@ -1,0 +1,59 @@
+#home {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background: var(--header);
+    height: 27vh;
+    width: 100vw;
+
+    font-size: clamp(20px, 3.6rem, 2vw);
+    font-family: 'Archivo';
+    font-weight: 700;
+    color: var(--white);
+
+    padding: 8vh 25vw;
+}
+
+.create-profissional {
+    font-family: 'Archivo';
+    font-weight: 700;
+    line-height: 0;
+    color: var(--gray-dark);
+
+    background: var(--white);
+    height: 5rem;
+    padding: 1.5rem 4.4rem;
+    border-radius: .8rem;
+    cursor: pointer;
+
+    position: absolute;
+    right: 20vw;
+    margin-top: -2.5rem;
+
+    transition: filter .2s;
+}
+
+.create-profissional:hover {
+    filter: brightness(1.2);
+}
+
+.no-profissional {
+    height: 73vh;
+    width: 100vw;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: var(--gray-medium);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-profissional {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4.8rem;
+}
