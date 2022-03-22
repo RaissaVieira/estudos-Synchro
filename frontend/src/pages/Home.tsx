@@ -1,4 +1,4 @@
-import { CardsProfessional } from '../components/CardsProfissional';
+import { CardsProfessional } from '../components/CardsProfessional';
 import '../styles/home.css';
 
 export function Home() {
