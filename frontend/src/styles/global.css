@@ -21,7 +21,6 @@ html {
 }
 
 body {
-    display: flex;
     height: 100vh;
     background: var(--background);
 }
@@ -34,4 +33,16 @@ textarea {
     font-size: clamp(14px, 1.6rem, 2vw);
     font-family: 'Archivo', sans-serif;
     font-size: 400;
+}
+
+@media screen and (max-width: 1080px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+  
+@media screen and (max-width: 720px) {
+    html {
+        font-size: 56.25%;
+    }
 }
