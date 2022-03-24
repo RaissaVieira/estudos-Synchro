@@ -1,6 +1,17 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { CreateProfessional } from "./pages/CreateProfessional";
+import { Home } from "./pages/Home";
+import { EditProfessional } from "./pages/EditProfessional";
+
 function App() {
   return (
-    <h1>Hello World</h1>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/professional/new" element={<CreateProfessional/>} />
+        <Route path="/professional/edit" element={<EditProfessional/>} />       
+      </Routes>
+    </BrowserRouter>
   );
 }
 
