@@ -13,6 +13,7 @@
 #profissional-content {
     background: var(--white);
     height: 72%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding: 3.2rem;
@@ -82,7 +83,7 @@
 
 }
 
-#profissional-contact button {
+#profissional-contact a {
     font-family: 'Archivo';
     font-weight: 600;
     font-size: 1.6rem;
