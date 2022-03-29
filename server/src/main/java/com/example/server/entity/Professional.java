@@ -22,15 +22,15 @@ public class Professional implements Serializable {
     @NotBlank(message = "Name can't be empty")
     private String name;
 
-    @Column(length = 11)
+    @Column(length = 14)
     @NotBlank(message = "CPF can't be empty")
     private String cpf;
 
-    @Column(length = 8)
+    @Column(length = 10)
     @NotBlank(message = "Birthday can't be empty")
     private String birthday;
 
-    @Column(length = 11)
+    @Column(length = 14)
     @NotBlank(message = "Whatsapp can't be empty")
     private String whatsapp;
 
