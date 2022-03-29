@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/professional/new" element={<CreateProfessional/>} />
-        <Route path="/professional/edit" element={<EditProfessional/>} />       
+        <Route path="/professional/edit/:userCpf" element={<EditProfessional/>} />       
       </Routes>
     </BrowserRouter>
   );

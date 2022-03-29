@@ -1,4 +1,4 @@
-import { FormProfessional } from '../components/FormProfessional';
+import { ProfileProfessional } from '../components/EditProfessional';
 import { Header } from '../components/Header';
 
 import '../styles/editProfessional.css';
@@ -11,7 +11,7 @@ export function EditProfessional() {
                     quer ajudar.
                 </h1>
             </Header>
-            <FormProfessional />
+            <ProfileProfessional />
         </div>
     )
 }
